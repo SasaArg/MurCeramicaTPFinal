@@ -1,0 +1,136 @@
+/* Estilos para todo el proyecto */
+:root {
+    --color1: #e1f2ea;
+    --color2: #b1d1ce;
+    --color3: #658762;
+    --color4: #f6bbbf;
+    --color5: #d58584;
+    --color6: #e39984;
+    --color7: #eddfbf;
+    --color8: #959595;
+}
+
+
+.contenedor-centrado {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.contenedor-centrado p {
+    font-family: Quicksand;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #658762;
+}
+
+.img {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+table {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+#datosProducto{
+    display: none;
+}
+
+/* input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+} */
+
+button {
+    font-family: Quicksand;
+    background-color: var(--color6);
+    padding: 8px;
+    margin:4px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+button:hover {
+    opacity: 60%;
+}
+
+button b{
+    color: black;
+}
+
+a,
+.menuPrincipal{
+    padding: 8px;
+    margin: 4px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.fondoNuevo,
+.menuPrincipal{
+    background-color: var(--color1);
+}
+
+.menuPrincipal:hover{
+    background: var(--color2);
+    color: black;
+    transition: .3s;
+}
+
+a:hover {
+    background: var(--color2);
+    color: black;
+    transition: .3s;
+}
